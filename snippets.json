@@ -36195,5 +36195,29 @@
         "body": [
             "module(${1:directory}, ${2:path})"
         ]
+    },
+    "GetEntityRoutingBucket": {
+        "prefix": "GetEntityRoutingBucket",
+        "body": [
+            "GetEntityRoutingBucket(${1:entity})"
+        ]
+    },
+    "GetPlayerRoutingBucket": {
+        "prefix": "GetPlayerRoutingBucket",
+        "body": [
+            "GetPlayerRoutingBucket(${1:playersrc})"
+        ]
+    },
+    "SetEntityRoutingBucket": {
+        "prefix": "SetEntityRoutingBucket",
+        "body": [
+            "SetEntityRoutingBucket(${1:entity}, ${2:bucket})"
+        ]
+    },
+    "SetPlayerRoutingBucket": {
+        "prefix": "SetPlayerRoutingBucket",
+        "body": [
+            "SetPlayerRoutingBucket(${1:playerSrc}, ${2:bucket})"
+        ]
     }
 }

@@ -36289,7 +36289,7 @@
         ]
     },
     "RegisterNetEvent Template": {
-        "prefix": ["RegisterNet", "AddEventHan", "Event"],
+        "prefix": ["RegisterNetEvent", "AddEventHandler", "Event"],
         "body": [
             "RegisterNetEvent(${1:eventName})",
             "AddEventHandler(${1:eventName}, ${2:eventRoutine})",

@@ -14,6 +14,6 @@ JamesUK#6793
 Contact: https://discord.gg/GZUbjzpCds
 
 
-#VSCode Store
+# VSCode Store
 
 https://marketplace.visualstudio.com/items?itemName=JamesUK.FiveM-Lua-Support

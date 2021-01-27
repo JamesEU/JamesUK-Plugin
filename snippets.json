@@ -36219,5 +36219,57 @@
         "body": [
             "SetPlayerRoutingBucket(${1:playerSrc}, ${2:bucket})"
         ]
+    },
+    "NetworkConcealEntity": {
+        "prefix": "NetworkConcealEntity",
+        "body": [
+            "NetworkConcealEntity(${1:entity}, ${2:toggle})"
+        ]
+    },
+    "NetworkConcealPlayer": {
+        "prefix": "NetworkConcealPlayer",
+        "body": [
+            "NetworkConcealPlayer(${1:playerSrc}, ${2:toggle}, ${3: p2})"
+        ]
+    },
+    "explosionCreating": {
+        "prefix": "explosionCreating",
+        "body": [
+            "AddEventHandler('explosionEvent', function(sender, ev)",
+            "\t  --code goes here",
+            "end)"
+        ]
+    },
+    "fireEvent": {
+        "prefix": "fireEvent",
+        "body": [
+            "AddEventHandler('fireEvent', function(sender, ev)",
+            "\t  --code goes here",
+            "end)"
+        ]
+    },
+    "giveWeaponEvent": {
+        "prefix": "giveWeaponEvent",
+        "body": [
+            "AddEventHandler('giveWeaponEvent', function(pedid, weapontype, unk1, ammo, giveasPickup)",
+            "\t  --code goes here",
+            "end)"
+        ]
+    },
+    "removeWeaponEvent": {
+        "prefix": "removeWeaponEvent",
+        "body": [
+            "AddEventHandler('removeWeaponEvent', function(pedid, weaponType)",
+            "\t  --code goes here",
+            "end)"
+        ]
+    },
+    "clearPedTasksEvent": {
+        "prefix": "clearPedTasksEvent",
+        "body": [
+            "AddEventHandler('clearPedTasksEvent', function(pedid, Immediately)",
+            "\t  --code goes here",
+            "end)"
+        ]
     }
 }

@@ -36296,5 +36296,17 @@
             "\t--code",
             "end)"
         ]
+    },
+    "GetPlayerToken": {
+        "prefix": ["GetPlayerToken"],
+        "body": [
+            "GetPlayerToken(${1:src}, ${2:index})"
+        ]
+    },
+    "GetNumPlayerTokens": {
+        "prefix": ["GetNumPlayerTokens"],
+        "body": [
+            "GetNumPlayerTokens(${1:src})"
+        ]
     }
 }

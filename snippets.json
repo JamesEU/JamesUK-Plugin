@@ -36135,6 +36135,72 @@
             "vRP.giveInventoryItem(${1:userid}, ${2:idname}, ${3:amount}, ${4:notify})"
         ]
     },
+    "Checks if user has permission.": {
+        "prefix": "vRP.hasPermission",
+        "body": [
+            "vRP.hasPermission(${1:userid}, ${2:permission})"
+        ]
+    },
+    "Gets a users wallet": {
+        "prefix": "vRP.getMoney",
+        "body": [
+            "vRP.getMoney(${1:userid})"
+        ]
+    },
+    "Sets a users wallet": {
+        "prefix": "vRP.setMoney",
+        "body": [
+            "vRP.setMoney(${1:userid},${2:amount})"
+        ]
+    },
+    "Try payment on user": {
+        "prefix": "vRP.tryPayment",
+        "body": [
+            "vRP.tryPayment(${1:userid},${2:amount})"
+        ]
+    },
+    "Gives a user money in their wallet.": {
+        "prefix": "vRP.giveMoney",
+        "body": [
+            "vRP.giveMoney(${1:userid},${2:amount})"
+        ]
+    },
+    "Gets a user's bank money": {
+        "prefix": "vRP.getBankMoney",
+        "body": [
+            "vRP.getBankMoney(${1:userid})"
+        ]
+    },
+    "Sets a user's bank money": {
+        "prefix": "vRP.setBankMoney",
+        "body": [
+            "vRP.setBankMoney(${1:userid},${2:amount})"
+        ]
+    },
+    "Gives a bank money": {
+        "prefix": "vRP.giveBankMoney",
+        "body": [
+            "vRP.giveBankMoney(${1:userid},${2:amount})"
+        ]
+    },
+    "Try withdrawal on a user.": {
+        "prefix": "vRP.tryWithdraw",
+        "body": [
+            "vRP.tryWithdraw(${1:userid},${2:amount})"
+        ]
+    },
+    "Try deposit on a user.": {
+        "prefix": "vRP.tryDeposit",
+        "body": [
+            "vRP.tryDeposit(${1:userid},${2:amount})"
+        ]
+    },
+    "Try full payment on a user.": {
+        "prefix": "vRP.tryFullPayment",
+        "body": [
+            "vRP.tryFullPayment(${1:userid},${2:amount})"
+        ]
+    },
     "Try get an Inventory Item": {
         "prefix": "vRP.tryGetInventoryItem",
         "description": "Returns a value false or true.",

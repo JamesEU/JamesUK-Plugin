@@ -36018,9 +36018,9 @@
         ]
     },
     "Set Server Data": {
-        "prefix": "vRP.getSData",
+        "prefix": "vRP.setSData",
         "body": [
-            "vRP.getSData(${1:key}, ${2:cbr})"
+            "vRP.setSData(${1:key}, ${2:cbr})"
         ]
     },
     "Get Server Data": {

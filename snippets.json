@@ -35984,7 +35984,7 @@
     "Return isBanned (true or false)": {
         "prefix": "vRP.isBanned",
         "body": [
-            "vRP.isBanned(${1:src}, ${1:cbr})"
+            "vRP.isBanned(${1:src}, ${2:cbr})"
         ]
     },
     "Return isWhitelisted (true or false)": {

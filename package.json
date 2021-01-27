@@ -3,7 +3,7 @@
     "displayName": "FiveM Lua Snippets - JamesUK",
     "description": "A snippet plugin for FiveM natives & vRP soon to also have ESX support. Contact: https://discord.gg/GZUbjzpCds",
     "icon": "images/logo.png",
-    "version": "0.0.9",
+    "version": "1.0.0",
     "publisher": "JamesUK",
     "engines": {
         "vscode": "^1.28.0"

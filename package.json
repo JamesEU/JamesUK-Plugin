@@ -1,0 +1,19 @@
+{
+    "name": "FiveM-Lua-Support",
+    "displayName": "FiveM Lua Snippets - JamesUK",
+    "description": "A snippet plugin for FiveM natives & vRP soon to also have ESX support.",
+    "version": "0.0.1",
+    "publisher": "JamesUK",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "lua",
+            "path": "./snippets.json"
+        }]
+    }
+}

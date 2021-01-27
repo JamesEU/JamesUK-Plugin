@@ -36271,5 +36271,21 @@
             "\t  --code goes here",
             "end)"
         ]
+    },
+    "Client Proxy & Tunnel vRP From Another Resource": {
+        "prefix": ["Tunnel", "Proxy"],
+        "body": [
+            "-- bind client tunnel interface",
+            "Tunnel.bindInterface(${1:TunnelName}, ${2:TableName})",
+            "Proxy.addInterface(${1:TunnelName}, ${2:TableName})"
+        ]
+    },
+    "Server Proxy & Tunnel vRP From Another Resource": {
+        "prefix": ["Tunnel"],
+        "body": [
+            "local Tunnel = module('vrp', 'lib/Tunnel')\nlocal Proxy = module('vrp', 'lib/Proxy')",
+            "Tunnel.bindInterface(${1:TunnelName}, ${2:TableName})",
+            "vRP = Proxy.getInterface('vRP')"
+        ]
     }
 }

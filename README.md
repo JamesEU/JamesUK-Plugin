@@ -12,3 +12,8 @@ If you have any suggestions on anything to be added please contact me.
 JamesUK#6793
 
 Contact: https://discord.gg/GZUbjzpCds
+
+
+#VSCode Store
+
+https://marketplace.visualstudio.com/items?itemName=JamesUK.FiveM-Lua-Support

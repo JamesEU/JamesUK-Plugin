@@ -35957,7 +35957,7 @@
             "vRP.getUserId(${1:src})"
         ]
     },
-    "Fetch Source from UserID": {
+    "Fetch Source from the UserID": {
         "prefix": "vRP.getUserSource",
         "body": [
             "vRP.getUserSource(${1:userid})"
@@ -36373,6 +36373,18 @@
         "prefix": ["GetNumPlayerTokens"],
         "body": [
             "GetNumPlayerTokens(${1:src})"
+        ]
+    },
+    "FXManifest": {
+        "prefix": ["FxManifest", "client_scripts", "server_scripts", "fx"],
+        "body": [
+            "fx_version 'cerulean'",
+            "games { 'gta5' }",
+            "author '${1:author}'",
+            "client_scripts {",
+            "\n}",
+            "\nserver_scripts {",
+            "\n}"
         ]
     }
 }

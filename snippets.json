@@ -36375,6 +36375,24 @@
             "GetNumPlayerTokens(${1:src})"
         ]
     },
+    "SetStateBagValue": {
+        "prefix": ["SetStateBagValue"],
+        "body": [
+            "SetStateBagValue(${1:bagName}, ${2:keyName}, ${3:valueData}, ${4:valueLenght}, ${5:replicated})"
+        ]
+    },
+    "GetStateBagValue": {
+        "prefix": ["GetStateBagValue"],
+        "body": [
+            "SetStateBagValue(${1:bagName}, ${2:keyName})"
+        ]
+    },
+    "EnsureEntityStateBag": {
+        "prefix": ["EnsureEntityStateBag"],
+        "body": [
+            "EnsureEntityStateBag(${1:entity})"
+        ]
+    },
     "FXManifest": {
         "prefix": ["FxManifest", "client_scripts", "server_scripts", "fx"],
         "body": [

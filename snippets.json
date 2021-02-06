@@ -1373,6 +1373,24 @@
             "ArrayValueGetObject(${1:arrayIndex})"
         ]
     },
+    "GetAllObjects": {
+        "prefix": "GetAllObjects",
+        "body": [
+            "GetAllObjects()"
+        ]
+    },
+    "GetAllPeds": {
+        "prefix": "GetAllPeds",
+        "body": [
+            "GetAllPeds()"
+        ]
+    },
+    "GetAllVehicles": {
+        "prefix": "GetAllVehicles",
+        "body": [
+            "GetAllVehicles()"
+        ]
+    },
     "ArrayValueGetSize": {
         "prefix": "ArrayValueGetSize",
         "body": [

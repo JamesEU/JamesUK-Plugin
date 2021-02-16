@@ -59,6 +59,12 @@
             "RemoveEventHandler(${1:eventData})"
         ]
     },
+    "RegisterKeyMapping": {
+        "prefix": "RegisterKeyMapping",
+        "body": [
+            "RegisterKeyMapping(${1:command}, ${2:description}, ${3:defaultMapper}, ${4:defaultBinding})"
+        ]
+    },
     "RegisterNetEvent": {
         "prefix": "RegisterNetEvent",
         "body": [

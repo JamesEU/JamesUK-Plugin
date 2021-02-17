@@ -36165,6 +36165,12 @@
             "vRP.hasPermission(${1:userid}, ${2:permission})"
         ]
     },
+    "Checks if user has a group.": {
+        "prefix": "vRP.hasGroup",
+        "body": [
+            "vRP.hasGroup(${1:userid}, ${2:permission})"
+        ]
+    },
     "Gets a users wallet": {
         "prefix": "vRP.getMoney",
         "body": [
@@ -36430,3 +36436,4 @@
         ]
     }
 }
+op

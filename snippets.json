@@ -36113,6 +36113,12 @@
             "vRP.ban(${1:adminsource},${2:permid},${3:time},${4:reason})"
         ]
     },
+    "Console Ban Player": {
+        "prefix": "vRP.banConsole",
+        "body": [
+            "vRP.banConsole(${1:permid},${2:time},${:reason})"
+        ]
+    },
     "Kick Player": {
         "prefix": "vRP.kick",
         "body": [
@@ -36436,4 +36442,3 @@
         ]
     }
 }
-op

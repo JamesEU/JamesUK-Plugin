@@ -13,6 +13,9 @@ JamesUK#6793
 
 Contact: https://discord.gg/GZUbjzpCds
 
+# ChangeLOG 
+
+Added auto updating natives.
 
 # VSCode Store
 
